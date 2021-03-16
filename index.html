@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./ml5.min.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=DVhZkro5"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+    <title>AI</title>
+</head>
+<body>
+    <input type="text" placeholder="Tên của bạn........" class="username">
+    <h3>Message : <span class="name"></span></h3>
+    <video class = "webcam" width="2000" height="700" autoplay ></video>
+    <button id="train">Train</button>
+    <button id = "save">Save</button>
+    <button id = "start">Start</button>
+    <button id = "saveAll">Save Model</button>
+    <script src="./main.js"></script>
+</body>
+</html>
